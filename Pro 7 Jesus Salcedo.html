@@ -1,0 +1,73 @@
+Algoritmo sin_titulo
+	//h,m,ni,na
+	h=0
+	m=0
+	ni=0
+	na=0
+	Escribir " Escribe nombre"
+	leer nom1
+	Escribir "Escribe el sexo"
+	leer s1
+	Escribir "Escribe la edad"
+	leer e1
+	Escribir " Escribe nombre"
+	leer nom2 
+	Escribir "Escribe el sexo"
+	leer s2
+	Escribir "Escribe la edad"
+	leer e2
+	Escribir " Escribe nombre"
+	leer nom3 
+	Escribir "Escribe el sexo"
+	leer s3
+	Escribir "Escribe la edad"
+	leer e3
+	
+	SI e1>=18 y s1="h" entonces 
+		h=h+1 
+	Finsi	
+	SI e1>=18 y s1="m" entonces 
+		m=m+1 
+	Finsi		
+	SI e1<18 y s1="ni" entonces 
+		ni=ni+1 
+	Finsi	
+	SI e1<18 y s1="na" entonces 
+		na=na+1 		
+	FinSi
+				
+	SI e2>=18 y s2="h" entonces 
+		h=h+1 
+	Finsi	
+	SI e2>=18 y s2="m" entonces 
+		m=m+1 
+	Finsi	
+		
+	SI e2<18 y s2="ni" entonces 
+		ni=ni+1 
+	FinSi
+	
+	SI e2<18 y s2="na" entonces 
+		na=na+1 
+	Finsi 	
+		
+		
+	SI e3>=18 y s3="h" entonces 
+		h=h+1 
+	Finsi 	
+	SI e3>=18 y s3="m" entonces 
+		m=m+1 
+	Finsi 		
+	SI e3<18 y s3="ni" entonces 
+		ni=ni+1 
+	Finsi 	
+	SI e3<18 y s3="na" entonces 
+		na=na+1 				
+	Finsi 
+	
+	Escribir "Los hombres son:" , h
+	Escribir "Las mujeres son: " , m
+	Escribir "Los niños son:" , ni
+	Escribir "Las niñas son: " na 
+				
+FinAlgoritmo
